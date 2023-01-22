@@ -2,6 +2,9 @@
   "name": "assignment1.9",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "v18.13.0"
+  }
   "scripts": {
     "dev": "next dev",
     "build": "next build",
