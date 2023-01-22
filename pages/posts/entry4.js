@@ -19,7 +19,7 @@ export default function entry4() {
           <div className="grid md:grid-cols-2 py-3">
           <div className="image">
           <Link href="/">
-                  <Image src={"/images/api.jpeg"} width={600}height={400}/>
+                  <Image alt="" src={"/images/api.jpeg"} width={600}height={400}/>
               </Link>
           </div>
           <div className="info flex justify-center flex-col">

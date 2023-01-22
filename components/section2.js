@@ -17,9 +17,9 @@ export default function section2() {
       return(
           <div className="grid md:grid-cols-2 py-3">
           <div className="image">
-          <a href="/">
-                  <Image src={"/images/juggling.jpeg"} width={600}height={400}/>
-              </a>
+          <Link href="/">
+                  <Image alt="" src={"/images/juggling.jpeg"} width={600}height={400}/>
+              </Link>
           </div>
           <div className="info flex justify-center flex-col">
            <div className="category">

@@ -20,7 +20,7 @@ import Link from "next/link"
                 <div className="grid md:grid-cols-2 py-3">
                 <div className="image">
                 <Link href="/">
-                        <Image src={"/images/student.jpeg"} width={600}height={400}/>
+                        <Image alt="" src={"/images/student.jpeg"} width={600}height={400}/>
                     </Link>
                 </div>
                 <div className="info flex justify-center flex-col">
