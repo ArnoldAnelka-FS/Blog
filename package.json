@@ -24,5 +24,18 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "description": "",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnoldAnelka-FS/Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnoldAnelka-FS/Blog/issues"
+  },
+  "homepage": "https://github.com/ArnoldAnelka-FS/Blog#readme"
 }
