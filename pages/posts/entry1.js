@@ -2,13 +2,13 @@ import Format from '../../layout/format'
 import Image from "next/image"
 import Link from "next/link"
 
-export default function Entry1(){
+export default function Entry1() {
     return(
     
        <Format>
            <section className="py-16">
             <div className="container mx-auto md:px-20">
-                <h1 className="font-bold text-6xl pb-12 text-center"> Trending </h1>
+                
             {Slide()}
             </div>
                  </section>
@@ -25,7 +25,7 @@ export default function Entry1(){
         </div>
         <div className="info flex justify-center flex-col">
          <div className="category">
-            <Link href={"/"}>Recent Journal Entries</a> </Link>
+            <Link href={"/"}>Recent Journal Entries</Link>
             <Link href={"/"}>-January 8, 2023</Link>
          </div>
          <div className="title">

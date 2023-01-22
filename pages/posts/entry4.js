@@ -1,16 +1,17 @@
 import Image from "next/image"
 import Link from "next/link"
+import Format from '../../layout/format'
 
 export default function entry4() {
     return (
-        <section className="py-16">
-          <div className="container mx-auto md:px-20">
-            
-  
-          {Slide()}
-  
-          </div>
-        </section>
+      <Format>
+      <section className="py-16">
+       <div className="container mx-auto md:px-20">
+           
+       {Slide()}
+       </div>
+            </section>
+  </Format>
       )
   }
    function Slide() {
